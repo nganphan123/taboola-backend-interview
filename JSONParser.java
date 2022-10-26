@@ -3,33 +3,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-/*
- * TODO:
- * Parse array
- * Refactor
- * Handle error when character is not correct
- * 
- * Modify while loop
-*/
-
-/* Parse array:
- * Starts with [ -> know array
- * Handle each string until reach ]
- * Outer loop go thru each char until ]:
- *  Inner loop handle each value
-*/
 public class JSONParser {
-    // static String json;
-    // public static Map<String,Object> parse(String input) {
-    //     json = input;
-    //     return parseObject(json);
-    // }
-    
-    // private static Object[] parseMixedValues(String json, int i){
-
-    // }
-
-    // parse string
     private static Object[] parseString(String json, int i){
         char c = json.charAt(i);
         String k = "";
